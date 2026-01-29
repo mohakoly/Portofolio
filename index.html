@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Koly Camara | Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -37,7 +37,7 @@
   <h2>Mes Projets</h2>
   <div class="grid">
     <div class="card reveal">
-      <img src="portfolio/images/projet-site-personnel.jpg" alt="Projet site personnel">
+      <img src="images/projet-site-personnel.jpg" alt="Projet site personnel">
       <div class="card-content">
         <h3>Site personnel</h3>
         <p>Portfolio multi-pages moderne, intégrant galerie, formulaire de contact et responsive design complet.</p>
@@ -51,14 +51,14 @@
       </div>
     </div>
     <div class="card reveal">
-      <img src="portfolio/images/application-web.jpg" alt="Application web">
+      <img src="images/application-web.jpg" alt="Application web">
       <div class="card-content">
         <h3>Application web</h3>
         <p>Projet full stack, intégrant base de données, authentification et dashboard interactif.</p>
       </div>
     </div>
     <div class="card reveal">
-      <img src="portfolio/images/nema-market.jpg" alt="Nimba Market">
+      <img src="images/nema-market.jpg" alt="Nimba Market">
       <div class="card-content">
         <h3>Nimba Market</h3>
         <p>Marketplace en ligne pour acheter et vendre facilement, avec gestion des produits et paiement sécurisé.</p>
@@ -108,15 +108,7 @@
 
 <footer>© 2026 Koly Camara</footer>
 
-<script>
-const reveals=document.querySelectorAll('.reveal');
-window.addEventListener('scroll',()=>{
-  reveals.forEach(r=>{
-    const top=r.getBoundingClientRect().top;
-    if(top<window.innerHeight-100){r.classList.add('show')}
-  })
-});
-</script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
